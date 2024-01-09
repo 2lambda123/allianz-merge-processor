@@ -1,0 +1,152 @@
+repo_name: 2lambda123/allianz-merge-processor
+report_id: e9beefd6c469a0495abb57d0a2178732
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:57:05+00:00'
+requested_by: 2lambda123
+provider: github
+branch: master
+detected_tools_count: 12
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/2lambda123/allianz-merge-processor
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/2lambda123/allianz-merge-processor
+  detection_source: Repo Metadata
+- name: Perl
+  description: Highly capable, feature-rich programming language with over 26 years
+    of development
+  website_url: http://www.perl.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1048/perl.png
+  detection_source_url: https://github.com/2lambda123/allianz-merge-processor
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/2lambda123/allianz-merge-processor/blob/master/tests/org.aposin.mergeprocessor.test/src/org/aposin/mergeprocessor/renaming/setup.sql
+  detection_source: tests/org.aposin.mergeprocessor.test/src/org/aposin/mergeprocessor/renaming/setup.sql
+  last_updated_by: aposin-bot
+  last_updated_on: 2019-07-15 12:08:22.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/2lambda123/allianz-merge-processor/blob/master/bundles/org.aposin.mergeprocessor/pom.xml
+  detection_source: bundles/org.aposin.mergeprocessor/pom.xml
+  last_updated_by: Daniel Gomez-Sanchez
+  last_updated_on: 2019-10-01 15:39:28.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/allianz-merge-processor
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/2lambda123/allianz-merge-processor/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Daniel Gomez-Sanchez
+  last_updated_on: 2019-07-18 10:25:17.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/allianz-merge-processor
+  detection_source: Repo Metadata
+- name: com.h2database:h2
+  description: H2 Database Engine
+  version: 2.2.220
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-merge-processor/blob/master/bundles/org.aposin.mergeprocessor/pom.xml
+  detection_source: bundles/org.aposin.mergeprocessor/pom.xml
+  last_updated_by: Daniel Gomez-Sanchez
+  last_updated_on: 2019-10-01 15:39:28.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-merge-processor/blob/master/bundles/org.aposin.mergeprocessor/pom.xml
+  detection_source: bundles/org.aposin.mergeprocessor/pom.xml
+  last_updated_by: Stefan Weiser
+  last_updated_on: 2020-06-09 05:20:56.000000000 Z
+- name: org.apache.commons:commons-collections4
+  description: The Apache Commons Collections package contains types that extend and
+    augment the Java Collections Framework
+  version: '4.4'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-merge-processor/blob/master/bundles/org.aposin.mergeprocessor/pom.xml
+  detection_source: bundles/org.aposin.mergeprocessor/pom.xml
+  last_updated_by: Stefan Weiser
+  last_updated_on: 2020-06-09 05:20:56.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  version: '3.10'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-merge-processor/blob/master/bundles/org.aposin.mergeprocessor/pom.xml
+  detection_source: bundles/org.aposin.mergeprocessor/pom.xml
+  last_updated_by: Stefan Weiser
+  last_updated_on: 2020-06-09 05:20:56.000000000 Z
